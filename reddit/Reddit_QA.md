@@ -2,58 +2,23 @@
 
 > **Please submit your PR in the following format after the underline below `Results` section. Don't forget to add an underline after adding your changes i.e., at the end of your `Results` section.**
 
-## Testing Reddit Handler with [Dataset Name](URL to the Dataset)
-
-**1. Testing CREATE DATABASE**
-
-```
-COMMAND THAT YOU RAN TO CREATE DATABASE.
-```
-
-![CREATE_DATABASE](Image URL of the screenshot)
-
-**2. Testing CREATE PREDICTOR**
-
-```
-COMMAND THAT YOU RAN TO CREATE PREDICTOR.
-```
-
-![CREATE_PREDICTOR](Image URL of the screenshot)
-
-**3. Testing SELECT FROM PREDICTOR**
-
-```
-COMMAND THAT YOU RAN TO DO A SELECT FROM.
-```
-
-![SELECT_FROM](Image URL of the screenshot)
-
-### Results
-
-Drop a remark based on your observation.
-- [ ] Works Great 💚 (This means that all the steps were executed successfully and the expected outputs were returned.)
-- [ ] There's a Bug 🪲 [Issue Title](URL To the Issue you created) ( This means you encountered a Bug. Please open an issue with all the relevant details with the Bug Issue Template)
-
----
-
 
 ## Testing Reddit Handler with [Predictive Maintenance](https://www.kaggle.com/datasets/tolgadincer/predictive-maintenance?select=train.csv)
 
 **1. Testing CREATE DATABASE**
 
 ```
-CREATE DATABASE predictMaintenance  
-WITH ENGINE = 'Reddit',       
-PARAMETERS = {
-    "user": "root",            
-    "password": "armanchand",    
-    "host": "0.tcp.in.ngrok.io",             
-    "port": "15232",          
-    "database": "predicitveMaintenance"          
-};
+CREATE DATABASE my_reddit
+WITH 
+    ENGINE = 'reddit',
+    PARAMETERS = {
+     "client_id": "-pDrSRZ5WB8neV_2aN47FA",
+     "client_secret": "q6oLrIoeG-YvgGuMCc8HE4pnm3LjeQ",
+     "user_agent": "mindsdb_test"
+    };
 
 ```
-<img width="875" alt="Screenshot 2022-10-13 at 6 37 13 PM" src="https://user-images.githubusercontent.com/26898623/195604605-586bf572-7b45-425c-8030-779958701f07.png">
+<img width="875" alt="mindsdb_cloud_1.png" src="reddit/images/mindsdb_cloud_1.png">
 
 **2. Testing CREATE PREDICTOR**
 
