@@ -1,8 +1,8 @@
-# Welcome to the MindsDB Manual QA Testing for MySQL Handler
+# Welcome to the MindsDB Manual QA Testing for Reddit Handler
 
 > **Please submit your PR in the following format after the underline below `Results` section. Don't forget to add an underline after adding your changes i.e., at the end of your `Results` section.**
 
-## Testing MySQL Handler with [Dataset Name](URL to the Dataset)
+## Testing Reddit Handler with [Dataset Name](URL to the Dataset)
 
 **1. Testing CREATE DATABASE**
 
@@ -37,13 +37,13 @@ Drop a remark based on your observation.
 ---
 
 
-## Testing MySQL Handler with [Predictive Maintenance](https://www.kaggle.com/datasets/tolgadincer/predictive-maintenance?select=train.csv)
+## Testing Reddit Handler with [Predictive Maintenance](https://www.kaggle.com/datasets/tolgadincer/predictive-maintenance?select=train.csv)
 
 **1. Testing CREATE DATABASE**
 
 ```
 CREATE DATABASE predictMaintenance  
-WITH ENGINE = 'mysql',       
+WITH ENGINE = 'Reddit',       
 PARAMETERS = {
     "user": "root",            
     "password": "armanchand",    
