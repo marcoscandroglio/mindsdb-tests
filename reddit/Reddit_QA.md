@@ -18,7 +18,7 @@ WITH
     };
 
 ```
-<img width="875" alt="mindsdb_cloud_1.png" src="reddit/images/mindsdb_cloud_1.png">
+<img width="875" alt="mindsdb_cloud_1.png" src="https://github.com/marcoscandroglio/mindsdb-tests/blob/94db3928548e3ed4e3081fc130f228c5887f9477/reddit/images/mindsdb_cloud_1.png">
 
 **2. Testing CREATE PREDICTOR**
 
