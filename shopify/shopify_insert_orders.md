@@ -1,4 +1,4 @@
-# Shopfi INSERT Function
+# Shopfy INSERT Function
 
 ## Creating a Shopify Database
 
